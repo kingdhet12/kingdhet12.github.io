@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Foto profil ilustrasi</title>
+  <desc id="desc">Ilustrasi profil profesional dengan latar biru dan abu-abu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="160" cy="160" r="160"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="320" height="320" fill="url(#bg)"/>
+    <circle cx="74" cy="64" r="54" fill="#ffffff" opacity="0.16"/>
+    <circle cx="258" cy="86" r="42" fill="#ffffff" opacity="0.12"/>
+    <path d="M66 306c18-67 66-104 94-104s76 37 94 104H66Z" fill="#0f172a"/>
+    <path d="M98 304c14-43 38-68 62-68s48 25 62 68H98Z" fill="#1e293b"/>
+    <circle cx="160" cy="132" r="63" fill="#f4c9a1"/>
+    <path d="M96 127c6-51 33-76 76-71 34 4 56 29 54 72-20-19-35-42-72-34-21 5-40 17-58 33Z" fill="#1e293b"/>
+    <path d="M105 136c3 17 8 31 16 42 10 14 24 23 39 23s29-9 39-23c8-11 13-25 16-42-9 9-24 14-55 14-28 0-45-5-55-14Z" fill="#f2bc8d"/>
+    <circle cx="136" cy="141" r="6" fill="#0f172a"/>
+    <circle cx="184" cy="141" r="6" fill="#0f172a"/>
+    <path d="M142 168c12 9 25 9 37 0" fill="none" stroke="#7c2d12" stroke-width="7" stroke-linecap="round"/>
+    <path d="M118 225l42 40 42-40c-13 6-28 9-42 9s-29-3-42-9Z" fill="#ffffff"/>
+  </g>
+</svg>

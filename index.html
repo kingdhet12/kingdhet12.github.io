@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website biodata pribadi modern dan responsive.">
+  <title>Biodata Pribadi | CV Online</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- File CSS utama -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigasi utama -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="navbar__brand">CV Online</a>
+
+    <button class="navbar__toggle" id="navbarToggle" aria-label="Buka menu navigasi" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="navbar__menu" id="navbarMenu">
+      <li><a href="#home" class="navbar__link active">Home</a></li>
+      <li><a href="#tentang" class="navbar__link">Tentang Saya</a></li>
+      <li><a href="#pendidikan" class="navbar__link">Pendidikan</a></li>
+      <li><a href="#pengalaman" class="navbar__link">Pengalaman</a></li>
+      <li><a href="#skill" class="navbar__link">Skill</a></li>
+      <li><a href="#portofolio" class="navbar__link">Portofolio</a></li>
+      <li><a href="#kontak" class="navbar__link">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header / Home -->
+  <header class="hero section" id="home">
+    <div class="hero__content fade-in">
+      <img src="assets/profile.svg" alt="Foto profil Ahmad Rizky Pratama" class="hero__photo">
+      <p class="hero__eyebrow">Halo, saya</p>
+      <h1 class="hero__title">Ahmad Rizky Pratama</h1>
+      <p class="hero__role">Web Developer | IT Support | E-Commerce Specialist</p>
+      <p class="hero__description">
+        Saya membantu bisnis dan individu membangun website yang rapi, cepat, dan mudah digunakan
+        dengan pendekatan desain modern serta pengalaman pengguna yang nyaman.
+      </p>
+      <div class="hero__actions">
+        <a href="#portofolio" class="button button--primary">Lihat Portofolio</a>
+        <a href="#kontak" class="button button--outline">Hubungi Saya</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section Tentang Saya -->
+    <section class="section section--light" id="tentang">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-heading__label">Profil</span>
+          <h2 class="section-heading__title">Tentang Saya</h2>
+          <p class="section-heading__text">
+            Informasi singkat mengenai data diri, kontak, dan fokus profesional saya.
+          </p>
+        </div>
+
+        <div class="about">
+          <div class="about__card card reveal">
+            <h3 class="card__title">Biodata</h3>
+            <ul class="about__list">
+              <li><strong>Nama:</strong> Ahmad Rizky Pratama</li>
+              <li><strong>Tempat & Tanggal Lahir:</strong> Jakarta, 12 Maret 1999</li>
+              <li><strong>Alamat:</strong> Jl. Melati No. 25, Jakarta Selatan</li>
+              <li><strong>Email:</strong> ahmad.rizky@email.com</li>
+              <li><strong>Nomor HP:</strong> +62 812-3456-7890</li>
+              <li><strong>LinkedIn:</strong> linkedin.com/in/ahmadrizky</li>
+              <li><strong>GitHub:</strong> github.com/ahmadrizky</li>
+            </ul>
+          </div>
+
+          <div class="about__card card reveal">
+            <h3 class="card__title">Deskripsi Diri</h3>
+            <p>
+              Saya adalah seorang pengembang web yang memiliki ketertarikan pada pembuatan aplikasi
+              berbasis website, pengelolaan sistem IT, dan optimasi toko online. Saya terbiasa bekerja
+              secara terstruktur, cepat belajar teknologi baru, dan senang menyelesaikan masalah dengan
+              solusi yang sederhana tetapi efektif.
+            </p>
+            <p>
+              Dalam setiap project, saya mengutamakan tampilan yang bersih, performa yang baik,
+              serta kemudahan penggunaan agar hasil akhir benar-benar bermanfaat bagi pengguna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Pendidikan -->
+    <section class="section" id="pendidikan">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-heading__label">Riwayat</span>
+          <h2 class="section-heading__title">Pendidikan</h2>
+          <p class="section-heading__text">
+            Perjalanan pendidikan yang membentuk dasar pengetahuan dan kemampuan teknis saya.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content card">
+              <span class="timeline__year">2017 - 2021</span>
+              <h3>Universitas Teknologi Nusantara</h3>
+              <p>S1 Teknik Informatika, fokus pada pengembangan web, database, dan sistem informasi.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content card">
+              <span class="timeline__year">2014 - 2017</span>
+              <h3>SMK Negeri 1 Jakarta</h3>
+              <p>Jurusan Rekayasa Perangkat Lunak dengan dasar pemrograman, jaringan, dan desain web.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content card">
+              <span class="timeline__year">2011 - 2014</span>
+              <h3>SMP Negeri 8 Jakarta</h3>
+              <p>Aktif dalam kegiatan komputer sekolah dan organisasi siswa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Pengalaman Kerja -->
+    <section class="section section--light" id="pengalaman">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-heading__label">Karier</span>
+          <h2 class="section-heading__title">Pengalaman Kerja</h2>
+          <p class="section-heading__text">
+            Beberapa pengalaman profesional dalam pengembangan web, IT support, dan e-commerce.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card card reveal">
+            <span class="experience-card__year">2023 - Sekarang</span>
+            <h3>PT Digital Kreatif Indonesia</h3>
+            <p class="experience-card__role">Web Developer</p>
+            <p>
+              Mengembangkan website company profile, landing page, dan dashboard internal menggunakan
+              HTML, CSS, JavaScript, PHP, Laravel, dan MySQL.
+            </p>
+          </article>
+
+          <article class="experience-card card reveal">
+            <span class="experience-card__year">2021 - 2023</span>
+            <h3>CV Sumber Teknologi</h3>
+            <p class="experience-card__role">IT Support</p>
+            <p>
+              Menangani instalasi perangkat, troubleshooting jaringan, maintenance komputer,
+              dan dokumentasi kebutuhan teknis kantor.
+            </p>
+          </article>
+
+          <article class="experience-card card reveal">
+            <span class="experience-card__year">2020 - 2021</span>
+            <h3>Toko Online Mandiri</h3>
+            <p class="experience-card__role">E-Commerce Specialist</p>
+            <p>
+              Mengelola katalog produk, optimasi marketplace, desain banner promosi,
+              dan analisis performa penjualan online.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Skill -->
+    <section class="section" id="skill">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-heading__label">Kemampuan</span>
+          <h2 class="section-heading__title">Skill</h2>
+          <p class="section-heading__text">
+            Ringkasan kemampuan teknis dan tools yang sering saya gunakan.
+          </p>
+        </div>
+
+        <div class="skill-grid">
+          <div class="skill-item reveal">
+            <div class="skill-item__header">
+              <span>HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="progress"><span style="width: 95%;"></span></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-item__header">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="progress"><span style="width: 90%;"></span></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-item__header">
+              <span>JavaScript</span>
+              <span>85%</span>
+            </div>
+            <div class="progress"><span style="width: 85%;"></span></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-item__header">
+              <span>PHP</span>
+              <span>82%</span>
+            </div>
+            <div class="progress"><span style="width: 82%;"></span></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-item__header">
+              <span>Laravel</span>
+              <span>78%</span>
+            </div>
+            <div class="progress"><span style="width: 78%;"></span></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-item__header">
+              <span>MySQL</span>
+              <span>84%</span>
+            </div>
+            <div class="progress"><span style="width: 84%;"></span></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-item__header">
+              <span>Photoshop</span>
+              <span>75%</span>
+            </div>
+            <div class="progress"><span style="width: 75%;"></span></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-item__header">
+              <span>Microsoft Office</span>
+              <span>88%</span>
+            </div>
+            <div class="progress"><span style="width: 88%;"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Portofolio -->
+    <section class="section section--light" id="portofolio">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-heading__label">Karya</span>
+          <h2 class="section-heading__title">Portofolio</h2>
+          <p class="section-heading__text">
+            Contoh project yang pernah dibuat untuk kebutuhan bisnis, promosi, dan sistem internal.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card card reveal">
+            <img src="assets/project-1.svg" alt="Preview project website company profile">
+            <div class="portfolio-card__body">
+              <h3>Website Company Profile</h3>
+              <p>Website profil perusahaan dengan halaman layanan, testimoni, dan kontak cepat.</p>
+              <a href="#kontak" class="button button--small">Lihat Detail</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card card reveal">
+            <img src="assets/project-2.svg" alt="Preview project dashboard admin">
+            <div class="portfolio-card__body">
+              <h3>Dashboard Admin</h3>
+              <p>Dashboard ringkas untuk memantau data transaksi, pengguna, dan laporan bulanan.</p>
+              <a href="#kontak" class="button button--small">Lihat Detail</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card card reveal">
+            <img src="assets/project-3.svg" alt="Preview project toko online">
+            <div class="portfolio-card__body">
+              <h3>Toko Online</h3>
+              <p>Katalog produk responsive dengan fitur pencarian, detail produk, dan checkout.</p>
+              <a href="#kontak" class="button button--small">Lihat Detail</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card card reveal">
+            <img src="assets/project-4.svg" alt="Preview project landing page promosi">
+            <div class="portfolio-card__body">
+              <h3>Landing Page Promosi</h3>
+              <p>Halaman promosi modern untuk campaign produk dengan fokus pada konversi.</p>
+              <a href="#kontak" class="button button--small">Lihat Detail</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card card reveal">
+            <img src="assets/project-5.svg" alt="Preview project sistem inventori">
+            <div class="portfolio-card__body">
+              <h3>Sistem Inventori</h3>
+              <p>Aplikasi pengelolaan stok barang, supplier, laporan keluar masuk, dan rekap data.</p>
+              <a href="#kontak" class="button button--small">Lihat Detail</a>
+            </div>
+          </article>
+
+          <article class="portfolio-card card reveal">
+            <img src="assets/project-6.svg" alt="Preview project desain konten digital">
+            <div class="portfolio-card__body">
+              <h3>Desain Konten Digital</h3>
+              <p>Paket desain banner, feed promosi, dan aset visual untuk marketplace serta media sosial.</p>
+              <a href="#kontak" class="button button--small">Lihat Detail</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Kontak -->
+    <section class="section" id="kontak">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-heading__label">Kontak</span>
+          <h2 class="section-heading__title">Hubungi Saya</h2>
+          <p class="section-heading__text">
+            Kirim pesan untuk berdiskusi tentang project, kerja sama, atau peluang profesional.
+          </p>
+        </div>
+
+        <div class="contact">
+          <form class="contact__form card reveal" id="contactForm">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda" required></textarea>
+
+            <button type="submit" class="button button--primary">Kirim</button>
+            <p class="contact__status" id="contactStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Tombol Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">↑</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Copyright © 2026 Ahmad Rizky Pratama. All Rights Reserved.</p>
+  </footer>
+
+  <!-- File JavaScript utama -->
+  <script src="script.js"></script>
+</body>
+</html>

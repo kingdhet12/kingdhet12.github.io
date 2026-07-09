@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Landing page promosi</title>
+  <desc id="desc">Ilustrasi landing page promosi dengan area hero dan tombol aksi.</desc>
+  <rect width="800" height="500" fill="#ecfeff"/>
+  <rect x="70" y="64" width="660" height="372" rx="24" fill="#ffffff"/>
+  <rect x="118" y="112" width="118" height="16" rx="8" fill="#2563eb"/>
+  <rect x="118" y="164" width="272" height="34" rx="10" fill="#0f172a"/>
+  <rect x="118" y="214" width="248" height="14" rx="7" fill="#94a3b8"/>
+  <rect x="118" y="244" width="204" height="14" rx="7" fill="#cbd5e1"/>
+  <rect x="118" y="296" width="132" height="44" rx="8" fill="#14b8a6"/>
+  <rect x="454" y="132" width="192" height="192" rx="32" fill="#dbeafe"/>
+  <circle cx="550" cy="228" r="58" fill="#2563eb"/>
+  <path d="M516 229h70M551 194v70" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+  <rect x="464" y="344" width="172" height="18" rx="9" fill="#e2e8f0"/>
+</svg>

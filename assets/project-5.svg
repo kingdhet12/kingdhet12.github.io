@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Sistem inventori</title>
+  <desc id="desc">Ilustrasi sistem inventori dengan kotak barang dan tabel data.</desc>
+  <rect width="800" height="500" fill="#f1f5f9"/>
+  <rect x="78" y="72" width="644" height="356" rx="22" fill="#ffffff"/>
+  <rect x="116" y="116" width="206" height="252" rx="16" fill="#dbeafe"/>
+  <path d="M160 190h118v114H160z" fill="#2563eb"/>
+  <path d="M160 190l59-36 59 36-59 36-59-36Z" fill="#60a5fa"/>
+  <path d="M219 226l59-36v114l-59 36V226Z" fill="#1d4ed8"/>
+  <rect x="370" y="122" width="260" height="38" rx="10" fill="#0f172a"/>
+  <rect x="370" y="190" width="260" height="28" rx="8" fill="#e2e8f0"/>
+  <rect x="370" y="238" width="260" height="28" rx="8" fill="#e2e8f0"/>
+  <rect x="370" y="286" width="260" height="28" rx="8" fill="#e2e8f0"/>
+  <rect x="370" y="334" width="132" height="34" rx="8" fill="#14b8a6"/>
+  <circle cx="598" cy="204" r="8" fill="#14b8a6"/>
+  <circle cx="598" cy="252" r="8" fill="#14b8a6"/>
+  <circle cx="598" cy="300" r="8" fill="#14b8a6"/>
+</svg>
